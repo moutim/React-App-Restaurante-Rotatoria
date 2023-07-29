@@ -1,0 +1,41 @@
+.navbar {
+    height: 120px;
+    background-color: #D00000;
+}
+
+.navbar nav {
+    height: 100%;
+}
+
+.navbar ul {
+    display: flex;
+    height: 100%;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.navbar ul li {
+    list-style-type: none;
+    font-size: 25px;
+    width: 18%;
+    white-space: nowrap;
+    font-weight: bold;
+}
+
+.navbar ul li a {
+    text-decoration: none;
+    color: #ffee32;
+    text-shadow: -2px 4px 5px rgba(15, 15, 15, 0.35);
+}
+
+.logo a {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.logo img {
+    width: 40%;
+    margin: auto;
+    align-self: center;
+}
