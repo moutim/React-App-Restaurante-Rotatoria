@@ -1,17 +1,25 @@
 import React from 'react';
 import './cardCliente.css';
 
-function CardCliente() {
+function CardCliente(props) {
+  console.log(props);
+  const { 
+    nome, telefone,
+    cep, endereco,
+    enderecoNumero,
+    totalPedidos,
+    totalGasto } = props;
+
   return (
     <div className='cardCliente'>
-        <p>Vitor Moutim</p>
+        <p>{nome}</p>
 
-        <p><b>Telefone:</b> 998181280</p>
-        <p><b>CEP:</b> 04851250</p>
-        <p><b>Endereco:</b> Rua Affonso Pauplo</p>
-        <p><b>Endereco N:</b> 14 C</p>
-        <p><b>Total de pedidos:</b> 10</p>
-        <p><b>Total gasto:</b> 289.90</p>
+        <p><b>Telefone:</b> {telefone}</p>
+        <p><b>CEP:</b> {cep}</p>
+        <p><b>Endereco:</b> {endereco}</p>
+        <p><b>Endereco N:</b> {enderecoNumero}</p>
+        <p><b>Total de pedidos:</b> {totalPedidos}</p>
+        <p><b>Total gasto:</b> {totalGasto}</p>
     </div>
   )
 }
