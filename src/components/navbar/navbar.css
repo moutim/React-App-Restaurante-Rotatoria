@@ -26,6 +26,12 @@
     text-decoration: none;
     color: #ffee32;
     text-shadow: -2px 4px 5px rgba(15, 15, 15, 0.35);
+    transition: .5s;
+}
+
+.navbar ul li a:hover {
+    font-size: 27px;
+    transition: .5s;
 }
 
 .logo a {
