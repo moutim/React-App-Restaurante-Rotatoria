@@ -1,5 +1,5 @@
 .navbar {
-    height: 120px;
+    height: 105px;
     background-color: #D00000;
 }
 
@@ -41,9 +41,9 @@
 }
 
 .logo img {
-    width: 40%;
+    width: 35%;
     margin: auto;
     align-self: center;
-    border-radius: 70px;
-    padding: 5px;
+    border-radius: 60px;
+    padding: 8px;
 }

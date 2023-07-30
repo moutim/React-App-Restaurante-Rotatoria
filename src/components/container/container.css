@@ -1,0 +1,7 @@
+.main {
+    height: 80vh;
+    width: 85vw;
+    margin: 20px auto;
+    border-radius: 70px;
+    box-shadow: 5px 5px 50px 5px rgba(0, 0, 0, 0.60);
+}

@@ -1,8 +1,11 @@
-import React from 'react'
+import React from 'react';
+import './cliente.css';
 
 function Cliente() {
   return (
-    <h1>CARALHOOOOOOOOOOOOOOOOOOOOO</h1>
+    <div className='container-clientes'>
+      <h1>Lista de todos os clientes: </h1>
+    </div>
   )
 }
 
