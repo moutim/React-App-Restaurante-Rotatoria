@@ -38,4 +38,6 @@
     width: 40%;
     margin: auto;
     align-self: center;
+    border-radius: 70px;
+    padding: 5px;
 }
