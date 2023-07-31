@@ -9,7 +9,7 @@ function Clientes() {
   const getClientes = async () => {
     const result = await api.get('/cliente');
     
-    setClientes(result.data);
+    !clientes.length && setClientes(result.data);
   }
 
   useEffect(() => {
