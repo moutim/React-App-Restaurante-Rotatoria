@@ -2,7 +2,6 @@ import React from 'react';
 import './cardCliente.css';
 
 function CardCliente(props) {
-  console.log(props);
   const { 
     nome, telefone,
     cep, endereco,
