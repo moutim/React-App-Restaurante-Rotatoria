@@ -1,0 +1,12 @@
+.container-clientes h1 {
+    font-size: 40px;
+    text-align: center;
+    padding-top: 20px;
+}
+
+.container-cards-clientes {
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
